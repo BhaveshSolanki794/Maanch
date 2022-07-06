@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MaanchWebsite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.Maanch.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="MaanchWebsite(failed)">
+    <classes>
+      <class name="com.Maanch.testCases.TC_Login">
+        <methods>
+          <include name="TC_LI_009"/>
+          <include name="TC_LI_008"/>
+          <include name="TC_LI_010"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.Maanch.testCases.TC_Login -->
+    </classes>
+  </test> <!-- MaanchWebsite(failed) -->
+</suite> <!-- Failed suite [MaanchWebsite] -->
